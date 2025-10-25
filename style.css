@@ -217,7 +217,7 @@ nav ul li .nav__btn
 
 /*начало секции reeding house*/
 
-.reeding-house__section img
+/*.reeding-house__section img
 {
   display: flex;
   align-items: center;
@@ -225,8 +225,61 @@ nav ul li .nav__btn
   
   width: 1920px;
   height: 600px;
-  
+  z-index: 0;
+}*/
+.reeding-house__section .img-block {
+  position: relative;
+  width: 600px;  
+  height: 400px; 
+  overflow: hidden;
+  z-index: 0;
 }
+
+.reeding-house__image
+{
+  width: 1920px;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  z-index: 0;
+}
+
+.reeding-house__content
+{
+  position: relative;
+}
+.reeding-house__section .reeding-house__content .content__text {
+  position: absolute;
+  top: 360px;      
+  left: 1440px;    
+  z-index: 2;
+
+  
+ 
+}
+
+
+.reeding-house__section .reeding-house__content .content__text h4
+{
+ 
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgba(64, 62, 59, 1);
+
+}
+
+.reeding-house__section .reeding-house__content .content__text p
+{
+  width: 270px;
+  height: 40px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: rgba(100, 92, 85, 1);
+}
+
 
 /*начало секции what we do*/
 
